@@ -1,6 +1,6 @@
 
 ###rem如何自适应，针对移动端
-<p>页面引入一下JS</p>
+<p>页面引入如下JS</p>
 <p>微信、QQ、UC浏览器效果很好</p>
 <ul>
     <li>在html内最外层元素给max-width:640px,min-width:320px</li>
