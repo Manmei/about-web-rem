@@ -7,6 +7,8 @@
     <li>元素宽高都以rem为单位就会自动缩放</li>
     <li>字体大小一般0.2rem-0.34rem，如>h3:font-size:0.3rem,h4:font-size:.28rem,p:font-size:.05rem一般这几个够用了.</li>
     <li>引入img标签时候该img必须float否则其与父元素有20px左右的margin-bottom</li>
+    <li></li>
+    <li>如果有用到input时候，该input得浮动，不然占据行高很大,出现元素占据位置大时候，float一下即可</li>
     <li>参考来源: <a href="http://www.jianshu.com/p/b00cd3506782/comments/1599498">猛戳此处</a></li>
 </ul>
 <pre style="color:green">   
