@@ -9,7 +9,7 @@
     <li>字体大小一般0.2rem-0.34rem，如>h3:font-size:0.3rem,h4:font-size:.28rem,p:font-size:.2rem一般这几个够用了.</li>
     <li>引入img标签时候该img必须float或者给一个属性(vertical-align: middle;)否则其与父元素有20多px的margin-bottom</li>
     <li>如img想自适应需要给个宽度，可以百分比，可以rem为单位给固定宽度，比如img实际宽度100px,用此JS后想自动缩放，可以css里给该img{width:1rem},其他元素雷同。</li>
-    <li>如果有用到input时候，该input得浮动或者以rem为单位给固定宽度，不然占据行高很大,出现元素占据位置大时候，float一下即可</li>
+    <li>如果有用到input时候，该input得浮动或者以rem为单位给固定宽度和高度，不然占据行高很大,出现元素占据位置大时候，float一下即可</li>
     <li>参考来源: <a href="http://www.jianshu.com/p/b00cd3506782/comments/1599498">猛戳此处</a></li>
 </ul>
 <pre style="color:green">   
