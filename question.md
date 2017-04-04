@@ -1,4 +1,4 @@
-###javascript
+### javascript
 1、实现一个formDate方法，其能将一个Date日期对象，格式化为yyy-MM-dd HH:mm:ss的字符串形式
 <pre>
 <code>
@@ -56,7 +56,7 @@ var a=new Date();a.format('yyyy/MM/dd HH:mm:ss');
 11、JS中，this关键字有几种指向？分别举例说明
 
 
-###CSS
+### CSS
 
 1、下面的元素如何水平居中：
 + a:行内元素(如span)
@@ -73,7 +73,7 @@ var a=new Date();a.format('yyyy/MM/dd HH:mm:ss');
 
 6、什么是BFC(haslayout)，什么情况下可以使用BFC的特效来布局？
 
-###思维题
+### 思维题
 1、你认为使用jQuery.each代替传统的for..in迭代有什么好处？
 
 2、使用模块化加载器(如requireJS)有什么好处？

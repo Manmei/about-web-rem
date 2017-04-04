@@ -1,4 +1,4 @@
-###rem如何自适应，针对移动端
+### rem如何自适应，针对移动端
 <p>页面引入如下JS</p>
 <p>微信、QQ、safari很好,UC上面字体大小有差异！建议文字不要太多。</p>
 <p>用了这个JS就不用在CSS内写N多个@media screenXXX了</p>
@@ -12,8 +12,9 @@
     <li>如果有用到input时候，该input得浮动或者以rem为单位给固定宽度和高度，不然占据行高很大,出现元素占据位置大时候，float一下即可</li>
     <li>参考来源: <a href="http://www.jianshu.com/p/b00cd3506782/comments/1599498">猛戳此处</a></li>
 </ul>
-<pre style="color:green">   
+  
         ```javascript
+
              /**
              * Created by Administrator on 2016/6/2.
              */
@@ -34,12 +35,12 @@
                 if (!doc.addEventListener) return;
                 win.addEventListener(resizeEvt, recalc, false);
                 doc.addEventListener('DOMContentLoaded', recalc, false);
-                /*DOMContentLoaded是firefox下特有的Event, 当所有DOM解析完以后会触发这个事件。
+                /*DOMContentLoaded该事件是当所有DOM解析完以后会触发这个事件。
                 DOMContentLoaded事件本身不会等待CSS文件、图片、iframe加载完成。
                 它的触发时机是：加载完页面，解析完所有标签（不包括执行CSS和JS），
                 并如规范中所说的设置interactive和执行每个静态的script标签中的JS，然后触发。
                 而JS的执行，需要等待位于它前面的CSS加载（如果是外联的话）、执行完成，
                 因为JS可能会依赖位于它前面的CSS计算出来的样式。*/
             })(document, window);
+
         ```
-</pre>
