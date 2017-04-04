@@ -13,7 +13,7 @@
     <li>参考来源: <a href="http://www.jianshu.com/p/b00cd3506782/comments/1599498">猛戳此处</a></li>
 </ul>
   
-        ```javascript
+ ```javascript
 
              /**
              * Created by Administrator on 2016/6/2.
@@ -43,4 +43,4 @@
                 因为JS可能会依赖位于它前面的CSS计算出来的样式。*/
             })(document, window);
 
-        ```
+```
